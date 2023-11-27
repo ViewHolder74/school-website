@@ -470,8 +470,116 @@ footer ul li a:hover {
         display: grid;
         place-items: center;
     }
-    .nav__manu li a:hover {
+    .nav__menu li a:hover {
        background: var(--color-bg2);
        color: var(--color-white);
+    }
+}
+
+/* ==== HEADER FOR MD SCREEN ===== */
+header {
+    height: 52vh;
+    margin-bottom: 4rem;
+}
+
+.header__container {
+    gap: 0;
+    padding-bottom: 3rem;
+}
+
+.categories {
+    height: auto;
+}
+
+.categories__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+.categories__left {
+    margin-right: 0;
+}
+/* ==== HEADER FOR MD SCREEN ===== */
+
+/* ==== POPULAR SUBJECTS ===== */
+.subjects {
+    margin-top: 0;
+}
+.subjects__container{
+    grid-template-columns: 1fr 1fr;
+}
+/* ==== POPULAR SUBJECTS ===== */
+
+
+
+/* ===== FAQs ===== */
+.faqs__container {
+    grid-template-columns: 1fr;
+}
+.faq {
+    padding: 1.5rem;
+}
+
+/* ==== Fotoor ======= */
+.footer__container {
+    grid-template-columns: 1fr 1fr;
+}
+
+/* ===== MEDIA QUERRIES SM SCREENS */
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    /* ==== NAVBAR ==== */
+    .nav__menu {
+        right: 3%;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+        height: 100vh;
+    }
+    .header__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top:  0;
+    }
+    .header__left p {
+        margin-bottom: 1.3rem;
+    }
+
+    /* ======= CATEGORIES ====== */
+    .categories__right {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;
+    }
+    .category {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .category__icon {
+        margin-top: 4px;
+        display: inline-block;
+    }
+
+    /* =========== POPULAR SUBJECTS ====== */
+    .subjects__container {
+        grid-template-columns: 1fr;
+    }
+
+    /* ===== TESTMONIAL SECTION ===== */
+    .testimonial__body {
+        padding: 1.2rem;
+    }
+
+    /* ====== FOOTER SECTION ======== */
+    .footer__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+    .footer__1 p {
+        margin: 1rem auto;
     }
 }
