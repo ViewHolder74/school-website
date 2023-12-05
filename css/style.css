@@ -348,7 +348,7 @@ header {
     transform: rotate(45deg);
 }
 
-/* ====== FOOTER ====== */
+/*************** FOOTER ****************************************/
 footer {
     background: var(--color-bg1);
     padding-top: 5rem;
@@ -368,27 +368,21 @@ footer {
 .footer__1 p {
     margin: 0 0 2rem;
 }
+
 footer ul li {
     margin-bottom: 0.7rem;
 }
 
 footer ul li a:hover {
     text-decoration: underline;
-}
+ }
 
 .footer__socials {
     display: flex;
     gap: 1rem;
     font-size: 1.2rem;
-    margin-top: 2rem;
 }
 
-.footer__copyright {
-    text-align: center;
-    margin-top: 4rem;
-    padding: 1.2rem;
-    border-top: 1px solid var(--color-bg2);
-}
 
 /* ==== MEDIA QUERIES ==== */
 
@@ -520,9 +514,10 @@ header {
 }
 
 /* ==== Fotoor ======= */
-.footer__container {
+/*.footer__container {
     grid-template-columns: 1fr 1fr;
 }
+*/
 
 /* ===== MEDIA QUERRIES SM SCREENS */
 @media screen and (max-width: 600px) {
