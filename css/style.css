@@ -381,6 +381,14 @@ footer ul li a:hover {
     display: flex;
     gap: 1rem;
     font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem;
+    border-top: 1px solid var(--color-bg2);
 }
 
 
